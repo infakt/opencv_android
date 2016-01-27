@@ -1,15 +1,15 @@
-apply plugin: 'com.android.library'
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:${project.ANDROID_BUILD_TOOLS_GRADLE_VERSION}"
+    }
+}
 
-android {
-    compileSdkVersion 19
-    buildToolsVersion "20.0.0"
-
-
-    defaultConfig {
-        applicationId 'org.opencv'
-        minSdkVersion 15
-        targetSdkVersion 19
-        versionName '2.4.9'
-        versionCode 2490
+allprojects {
+    repositories {
+        jcenter()
     }
 }
