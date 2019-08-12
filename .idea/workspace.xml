@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2ff7b9e5-9c46-4097-aa15-430644599f91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/haarcascades/haarcascade_frontalcatface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/haarcascades/haarcascade_frontalcatface.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/haarcascades/haarcascade_frontalcatface_extended.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/haarcascades/haarcascade_frontalcatface_extended.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/haarcascades/haarcascade_fullbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/haarcascades/haarcascade_fullbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/haarcascades/haarcascade_lowerbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/haarcascades/haarcascade_lowerbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/haarcascades/haarcascade_smile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/haarcascades/haarcascade_smile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/haarcascades/haarcascade_upperbody.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/haarcascades/haarcascade_upperbody.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/etc/lbpcascades/lbpcascade_frontalcatface.xml" beforeDir="false" afterPath="$PROJECT_DIR$/etc/lbpcascades/lbpcascade_frontalcatface.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/AsyncServiceHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/BaseLoaderCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/Camera2Renderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/CameraBridgeViewBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/CameraGLRendererBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/CameraGLSurfaceView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/CameraRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/FpsMeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/InstallCallbackInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/JavaCameraView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/LoaderCallbackInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/OpenCVLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/StaticHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/android/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/calib3d/Calib3d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/calib3d/StereoBM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/calib3d/StereoMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/calib3d/StereoSGBM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/Algorithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/Core.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/CvException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/CvType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/DMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/KeyPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/Mat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfByte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfDMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfDouble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfFloat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfFloat4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfFloat6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfInt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfInt4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfKeyPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfPoint2f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfPoint3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfPoint3f.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/MatOfRect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/Point3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/Range.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/Rect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/RotatedRect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/Scalar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/Size.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/TermCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/core/TickMeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/engine/OpenCVEngineInterface.aidl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/AKAZE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/AgastFeatureDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/BFMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/BOWImgDescriptorExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/BOWKMeansTrainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/BOWTrainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/BRISK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/DescriptorExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/DescriptorMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/FastFeatureDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/Feature2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/FeatureDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/Features2d.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/FlannBasedMatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/GFTTDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/KAZE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/MSER.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/ORB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/features2d/Params.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/imgcodecs/Imgcodecs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/imgproc/CLAHE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/imgproc/Imgproc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/imgproc/LineSegmentDetector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/imgproc/Moments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/imgproc/Subdiv2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/ANN_MLP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/Boost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/DTrees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/EM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/KNearest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/LogisticRegression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/Ml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/NormalBayesClassifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/RTrees.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/SVM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/SVMSGD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/StatModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/ml/TrainData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/objdetect/BaseCascadeClassifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/objdetect/CascadeClassifier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/objdetect/HOGDescriptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/objdetect/Objdetect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/AlignExposures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/AlignMTB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/CalibrateCRF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/CalibrateDebevec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/CalibrateRobertson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/MergeDebevec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/MergeExposures.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/MergeMertens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/MergeRobertson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/Photo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/Tonemap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/TonemapDrago.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/TonemapDurand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/TonemapMantiuk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/photo/TonemapReinhard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/utils/Converters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/BackgroundSubtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/BackgroundSubtractorKNN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/BackgroundSubtractorMOG2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/DenseOpticalFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/DualTVL1OpticalFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/FarnebackOpticalFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/KalmanFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/SparseOpticalFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/SparsePyrLKOpticalFlow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/video/Video.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/videoio/VideoCapture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/videoio/VideoWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/opencv/videoio/Videoio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/BaseLoaderCallback.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewFrame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewListener.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/CameraBridgeViewBase.CvCameraViewListener2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/CameraBridgeViewBase.ListItemAccessor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/CameraBridgeViewBase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/FpsMeter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/InstallCallbackInterface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/JavaCameraView.JavaCameraSizeAccessor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/JavaCameraView.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/LoaderCallbackInterface.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/OpenCVLoader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/Utils.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/android/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/calib3d/Calib3d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/calib3d/StereoBM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/calib3d/StereoMatcher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/calib3d/StereoSGBM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/calib3d/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/calib3d/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/calib3d/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Algorithm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Core.MinMaxLocResult.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Core.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/CvException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/CvType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/DMatch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/KeyPoint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Mat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfByte.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfDMatch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfDouble.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfFloat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfFloat4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfFloat6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfInt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfInt4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfKeyPoint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfPoint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfPoint2f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfPoint3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfPoint3f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/MatOfRect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Point.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Point3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Range.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Rect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/RotatedRect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Scalar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/Size.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/TermCriteria.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/core/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/engine/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/engine/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/engine/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/features2d/DescriptorExtractor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/features2d/DescriptorMatcher.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/features2d/FeatureDetector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/features2d/Features2d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/features2d/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/features2d/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/features2d/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgcodecs/Imgcodecs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgcodecs/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgcodecs/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgcodecs/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgproc/CLAHE.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgproc/Imgproc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgproc/LineSegmentDetector.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgproc/Subdiv2D.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgproc/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgproc/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/imgproc/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/ANN_MLP.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/Boost.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/DTrees.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/EM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/KNearest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/LogisticRegression.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/Ml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/NormalBayesClassifier.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/RTrees.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/SVM.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/StatModel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/TrainData.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/ml/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/objdetect/BaseCascadeClassifier.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/objdetect/CascadeClassifier.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/objdetect/HOGDescriptor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/objdetect/Objdetect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/objdetect/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/objdetect/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/objdetect/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/AlignExposures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/AlignMTB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/CalibrateCRF.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/CalibrateDebevec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/CalibrateRobertson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/MergeDebevec.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/MergeExposures.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/MergeMertens.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/MergeRobertson.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/Photo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/Tonemap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/TonemapDrago.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/TonemapDurand.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/TonemapMantiuk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/TonemapReinhard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/photo/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/utils/Converters.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/utils/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/utils/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/utils/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/BackgroundSubtractor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/BackgroundSubtractorKNN.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/BackgroundSubtractorMOG2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/DenseOpticalFlow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/DualTVL1OpticalFlow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/KalmanFilter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/Video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/video/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/videoio/VideoCapture.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/videoio/Videoio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/videoio/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/videoio/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/org/opencv/videoio/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/resources/inherit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/javadoc/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/res/values/attrs.xml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/settings.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="opencv" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opencv" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ff7b9e5-9c46-4097-aa15-430644599f91" name="Default Changelist" comment="" />
+      <created>1565632570956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565632570956</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32967034" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32987553" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Fabric" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Flutter Inspector" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
